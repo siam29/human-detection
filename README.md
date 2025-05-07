@@ -27,6 +27,7 @@ human-detection/
 `
 git clone https://github.com/siam29/human-detection.git
 `
+
 `
 cd human-detection
 `
@@ -34,6 +35,7 @@ cd human-detection
 `
 python -m venv env
 `
+
 `
 source env/bin/activate
 `
@@ -45,13 +47,16 @@ pip install -r requirements.txt
 `
 uvicorn fastapi_app:app --reload
 `
+
 Visit: http://127.0.0.1:8000/docs 
 
 ### Run Streamlit Frontend
 Open another terminal and go to main directory
+
 `
 cd human-detection
 `
+
 `
 streamlit run streamlit_app.py
 `
