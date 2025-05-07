@@ -4,3 +4,4 @@ streamlit
 uvicorn
 requests
 ultralytics
+python-multipart
